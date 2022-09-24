@@ -10,21 +10,24 @@ public class Exec2 {
 
         //Inicio Algoritmo
 
-        double valorInvestment, taxaJuros = 0.05, valorTotal, ano =1, valorJuros;
+//        double valorInvestment, taxaJuros = 0.05, valorTotal, ano =1, valorJuros;
 
-        valorInvestment = Double.parseDouble(JOptionPane.showInputDialog("Digite valor investido")); //(“1000,00”);
-        valorTotal = valorInvestment;
+//        valorInvestment = Double.parseDouble(JOptionPane.showInputDialog("Digite valor investido")); //(“1000,00”);
+//        valorTotal = valorInvestment;
+//
+//        while (ano<=10) {
+//
+//            valorTotal = (valorTotal * taxaJuros) + valorTotal;
+//            ano = ano + 1; //ano++
+//        }
+//        valorJuros = valorTotal - valorInvestment;
+//
+//        System.out.println("Você investiu: " +valorInvestment);
+//        System.out.println("Rendeu: "+valorJuros + " de Juros");
+//        System.out.println("O Valor total: "+valorTotal);
 
-        while (ano<=10) {
 
-            valorTotal = (valorTotal * taxaJuros) + valorTotal;
-            ano = ano + 1; //ano++
-        }
-        valorJuros = valorTotal - valorInvestment;
 
-        System.out.println("Você investiu: " +valorInvestment);
-        System.out.println("Rendeu: "+valorJuros + " de Juros");
-        System.out.println("O Valor total: "+valorTotal);
 
 
     }

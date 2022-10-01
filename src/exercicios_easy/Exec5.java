@@ -4,13 +4,16 @@ import javax.swing.*;
 
 public class Exec5 {
 public int soma(int som1, int som2, int som3) {
-        return (som1 + som2+ som3);
+
+    return (som1 + som2+ som3);
 }
 public int sub(int sub1, int sub2, int sub3) {
-        return (sub1 - sub2 - sub3);
+
+    return (sub1 - sub2 - sub3);
 }
 public int multi(int multi1, int multi2,int multi3) {
-        return (multi1 * multi2 * multi3);
+
+    return (multi1 * multi2 * multi3);
 }
 public int media(int media1, int media2, int media3){
        return (media1+media2+media3)/3;

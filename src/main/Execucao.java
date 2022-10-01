@@ -1,15 +1,13 @@
 package main;
 import exemplos.MetodoSemMain;
-import exercicios_easy.Exec2;
-import exercicios_easy.Exec3;
-import exercicios_easy.Exec4;
-import exercicios_easy.Exec5;
+import exercicios_easy.*;
 
 import javax.swing.*;
 
 public class Execucao {
 public static void main (String[] args) {
-//        MetodoSemMain metodo= new MetodoSemMain();
+
+    //        MetodoSemMain metodo= new MetodoSemMain();
 //        metodo.pintarCores("Azul", "Rosa");
 //        System.out.println(metodo.somar(9, 8));
 //          metodo.trocarCor("Azul");
@@ -31,6 +29,15 @@ public static void main (String[] args) {
 //    System.out.println("A multiplicação é: " + exec5.multi(8,5,40));
 //    System.out.println("A média é: " + exec5.media(100,10,67));
 
+//    Exec6 exec6 = new Exec6();
+//    System.out.println("Sua avaliação é: " + exec6.suaNota(10,5, 2));
+//    System.out.println("Sua avaliação é: " + exec6.suaNota(2,1,2));
+//    System.out.println("Sua avaliação é: " + exec6.suaNota(5,5,1));
+//    System.out.println("Sua avaliação é: " + exec6.suaNota(0,0,9));
+
+//    Exec7 exec7 = new Exec7();
+//    double salario = 9500;
+//    System.out.println(exec7.calculaInss(salario));
 
     }
 }

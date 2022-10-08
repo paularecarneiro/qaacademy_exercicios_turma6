@@ -1,38 +1,19 @@
 package exercicios_easy;
 
-import javax.swing.*;
-
 public class Exec7 {
-    public double calculaInss (double salario){
-double inss = 0.0;
+    public String salario(double valorSalario) {
+        String imposto = "";
+        if(valorSalario<=1045.00){
+            imposto= (("O valor do INSS a ser pago é ")+valorSalario*0.075);}
+        if(valorSalario>=1045.01&&valorSalario<=2089.60){
+            imposto=(("O valor do INSS a ser pago é ")+valorSalario*0.09);}
+        if(valorSalario>=2089.61&&valorSalario<=3134.40){
+            imposto=(("O valor do INSS a ser pago é ")+valorSalario*0.12);}
+        if(valorSalario>=3134.41){
+            imposto=(("O valor do INSS a ser pago é ")+valorSalario*0.14);}
+        return imposto;
 
-//  Faça um algoritmo para ler um valor de salário,
-//  calcular e exibir o valor do INSS a ser pago. Respeitando a tabela abaixo:
-//Inicio Algoritmo
-
-//float salario, inss;
-//salario = Float.parseFloat(JOptionPane.showInputDialog("Informar salario: "));
-
-        if (salario <= 1045.00) {
-            inss = (float) (salario * 0.075);
-            System.out.println("O valor de INSS é: " + inss);
-        }
-        if (salario >= 1045.01 && salario <= 2089.60)
-        {
-            inss = (float) (salario * 0.09);
-            System.out.println("O valor de INSS é: " + inss);
-        }
-        if (salario >= 2089.61 && salario <= 3134.40)
-        {
-            inss = (float) (salario * 0.12);
-            System.out.println("O valor de INSS é: " + inss);
-        }
-        if (salario >= 3134.41) {
-            inss = (float) (salario * 0.14);
-            System.out.println("O valor de INSS é: " + inss);
-        }
-        return inss;
-    }
+}
 }
 
 // Exercício 7 - Faça um algoritmo para ler um valor de salário, calcular e exibir o

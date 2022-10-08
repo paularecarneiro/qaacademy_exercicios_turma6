@@ -1,24 +1,17 @@
 package exercicios_easy;
 
-import javax.swing.*;
-
 public class Exec6 {  // Inicio Algoritmo
 
-
-
-    public String suaNota (double nota1, double nota2, double resultado) {
-        resultado = (nota1 + nota2) / 2;
-        if (resultado > 5) {
-          return "Você foi Aprovado!!";
-    }
-        if (resultado < 5) {
-        return "Você foi Reprovado.";
-    }
-        if (resultado == 5) {
-            return "Você ficou de Exame.";
-    }
-        return "Não foi possível calcular sua nota";
-
+           public int mediaFinal(int nota1, int nota2) {
+            int media=(nota1+nota2)/2;
+            if (media>5){
+                System.out.println("Você foi Aprovado!");}
+            if(media<5){
+                System.out.println("Que pena, você foi Reprovado!");}
+            if(media==5){
+                System.out.println("Não desista, você ficou de recuperação!");}
+            return media;
+        }
 
 
 //        nota1 = Integer.parseInt(JOptionPane.showInputDialog("Informar a primeira nota: "));
@@ -37,6 +30,8 @@ public class Exec6 {  // Inicio Algoritmo
 //        SE - a média > 5 Exibir aprovado, SE a média < 5 exibir reprovado, se media = 5
 //        exibir exame.
 //        }
+        //}
+
     }
 
-}
+
